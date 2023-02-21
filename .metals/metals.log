@@ -1,0 +1,1637 @@
+2023.02.18 23:04:53 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/lsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.02.18 23:04:53 INFO  logging to file /Users/felipehummel/dev/scalox/.metals/metals.log[0m
+2023.02.18 23:04:53 INFO  Started: Metals version 0.11.10 in workspace '/Users/felipehummel/dev/scalox' for client Visual Studio Code 1.75.0.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/felipehummel/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.18 23:04:54 INFO  time: initialize in 0.67s[0m
+2023.02.18 23:04:54 WARN  Build server is not auto-connectable.[0m
+2023.02.18 23:04:54 WARN  no build tool detected in workspace '/Users/felipehummel/dev/scalox'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.02.18 23:04:55 WARN  no build target for: /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:04:56 INFO  no build target found for /Users/felipehummel/dev/scalox/compiler.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.02.18 23:04:56 INFO  time: code lens generation in 2.12s[0m
+2023.02.18 23:05:19 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:05:19 WARN  no build target for: /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:05:24 INFO  Detected new build tool in /Users/felipehummel/dev/scalox/.bsp/scala-cli.json[0m
+2023.02.18 23:05:24 INFO  Attempting to connect to the build server...[0m
+2023.02.18 23:05:24 INFO  Running BSP server [/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/felipehummel/dev/scalox/.scala-build/ide-options-v2.json, /Users/felipehummel/dev/scalox][0m
+2023.02.18 23:05:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/bsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.18 23:05:30 INFO  time: Connected to build server in 5.46s[0m
+2023.02.18 23:05:30 INFO  Connected to Build server: scala-cli v0.1.19[0m
+2023.02.18 23:05:30 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- compiler.scala[0m
+2023.02.18 23:05:30 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:05:30 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.18 23:05:31 INFO  time: indexed workspace in 0.92s[0m
+2023.02.18 23:07:45 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:07:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:07:45 INFO  time: compiled project_bd2c96d2de in 42ms[0m
+2023.02.18 23:07:50 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:07:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:07:50 INFO  time: compiled project_bd2c96d2de in 30ms[0m
+2023.02.18 23:08:06 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:10:10: stale bloop error: Not found: runPrompt
+    else runPrompt()
+         ^^^^^^^^^[0m
+2023.02.18 23:08:06 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:10:10: stale bloop error: Not found: runPrompt
+    else runPrompt()
+         ^^^^^^^^^[0m
+2023.02.18 23:08:06 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:07 INFO  time: compiled project_bd2c96d2de in 83ms[0m
+2023.02.18 23:08:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:09 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.18 23:08:12 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:08:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:12 INFO  time: compiled project_bd2c96d2de in 77ms[0m
+2023.02.18 23:08:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:13 INFO  time: compiled project_bd2c96d2de in 20ms[0m
+2023.02.18 23:08:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:15 INFO  time: compiled project_bd2c96d2de in 22ms[0m
+2023.02.18 23:08:17 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:17 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:17 INFO  time: compiled project_bd2c96d2de in 74ms[0m
+2023.02.18 23:08:59 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:08:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:08:59 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.18 23:09:02 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:09:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:09:02 INFO  time: compiled project_bd2c96d2de in 56ms[0m
+2023.02.18 23:09:42 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:09:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:09:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:09:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:09:42 INFO  time: compiled project_bd2c96d2de in 84ms[0m
+2023.02.18 23:09:44 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:09:44 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:09:44 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.18 23:09:47 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:09:48 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:09:48 INFO  time: compiled project_bd2c96d2de in 59ms[0m
+2023.02.18 23:10:49 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:1: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:10:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:10:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:10:49 INFO  time: compiled project_bd2c96d2de in 91ms[0m
+2023.02.18 23:11:42 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:3: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:11:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:11:42 INFO  time: compiled project_bd2c96d2de in 36ms[0m
+2023.02.18 23:11:58 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:11:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:11:59 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.18 23:12:03 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:12:03 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:03 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.18 23:12:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:11 INFO  time: compiled project_bd2c96d2de in 73ms[0m
+2023.02.18 23:12:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:23 INFO  time: compiled project_bd2c96d2de in 37ms[0m
+2023.02.18 23:12:31 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:31 INFO  time: compiled project_bd2c96d2de in 36ms[0m
+2023.02.18 23:12:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:39 INFO  time: compiled project_bd2c96d2de in 40ms[0m
+2023.02.18 23:12:52 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:52 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:52 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.18 23:12:57 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:12:57 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:12:57 INFO  time: compiled project_bd2c96d2de in 75ms[0m
+2023.02.18 23:13:04 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:13:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:13:04 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.18 23:13:12 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:13:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:13:12 INFO  time: compiled project_bd2c96d2de in 75ms[0m
+2023.02.18 23:13:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:13:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:13:33 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.18 23:14:00 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:14:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:14:00 INFO  time: compiled project_bd2c96d2de in 39ms[0m
+2023.02.18 23:14:05 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:14:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:14:05 INFO  time: compiled project_bd2c96d2de in 75ms[0m
+2023.02.18 23:14:36 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:14:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:14:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:14:36 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.18 23:14:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:14:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:14:37 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+object Compiler extends App:
+                           ^[0m
+2023.02.18 23:14:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:14:37 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.18 23:14:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:31 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:15:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:15:31 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.18 23:15:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:38 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:5: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:15:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:38 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:15:38 INFO  time: compiled project_bd2c96d2de in 84ms[0m
+2023.02.18 23:15:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:15:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:15:40 INFO  time: compiled project_bd2c96d2de in 77ms[0m
+Feb 18, 2023 11:15:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:264)
+	at scala.Predef$Ensuring$.ensuring$extension(Predef.scala:359)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.find$1(SemanticSymbolBuilder.scala:88)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addOverloadIdx$1(SemanticSymbolBuilder.scala:93)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addDescriptor$1(SemanticSymbolBuilder.scala:114)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addSymName(SemanticSymbolBuilder.scala:146)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addOwner$1(SemanticSymbolBuilder.scala:75)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addSymName(SemanticSymbolBuilder.scala:146)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.symbolName(SemanticSymbolBuilder.scala:29)
+	at dotty.tools.dotc.semanticdb.Scala3$SymbolOps$.symbolName(Scala3.scala:266)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.registerDefinition(ExtractSemanticDB.scala:352)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:182)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver$$anonfun$1(Trees.scala:1617)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1617)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1658)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:179)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse$$anonfun$11(ExtractSemanticDB.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:202)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1621)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1658)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:176)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse$$anonfun$1(ExtractSemanticDB.scala:140)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:140)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:39)
+
+Feb 18, 2023 11:15:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.Predef$.assert(Predef.scala:264)
+	at scala.Predef$Ensuring$.ensuring$extension(Predef.scala:359)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.find$1(SemanticSymbolBuilder.scala:88)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addOverloadIdx$1(SemanticSymbolBuilder.scala:93)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addDescriptor$1(SemanticSymbolBuilder.scala:114)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addSymName(SemanticSymbolBuilder.scala:146)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addOwner$1(SemanticSymbolBuilder.scala:75)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.addSymName(SemanticSymbolBuilder.scala:146)
+	at dotty.tools.dotc.semanticdb.SemanticSymbolBuilder.symbolName(SemanticSymbolBuilder.scala:29)
+	at dotty.tools.dotc.semanticdb.Scala3$SymbolOps$.symbolName(Scala3.scala:266)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.registerDefinition(ExtractSemanticDB.scala:352)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:182)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.fold$1(Trees.scala:1529)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.apply(Trees.scala:1531)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver$$anonfun$1(Trees.scala:1617)
+	at scala.collection.LinearSeqOps.foldLeft(LinearSeq.scala:183)
+	at scala.collection.LinearSeqOps.foldLeft$(LinearSeq.scala:179)
+	at scala.collection.immutable.List.foldLeft(List.scala:79)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1617)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1658)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:179)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse$$anonfun$11(ExtractSemanticDB.scala:202)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:202)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.apply(Trees.scala:1657)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1621)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeAccumulator.foldOver(Trees.scala:1535)
+	at dotty.tools.dotc.ast.Trees$Instance$TreeTraverser.traverseChildren(Trees.scala:1658)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:176)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse$$anonfun$1(ExtractSemanticDB.scala:140)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.semanticdb.ExtractSemanticDB$Extractor.traverse(ExtractSemanticDB.scala:140)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:39)
+
+2023.02.18 23:15:51 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:15:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:15:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:15:51 INFO  time: compiled project_bd2c96d2de in 88ms[0m
+2023.02.18 23:18:08 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:18:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:18:08 INFO  time: compiled project_bd2c96d2de in 45ms[0m
+2023.02.18 23:18:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:18:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:18:11 INFO  time: compiled project_bd2c96d2de in 95ms[0m
+2023.02.18 23:19:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:19:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:19:39 INFO  time: compiled project_bd2c96d2de in 97ms[0m
+2023.02.18 23:19:45 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:19:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.18 23:19:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:19:45 INFO  time: compiled project_bd2c96d2de in 91ms[0m
+2023.02.18 23:20:10 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:20:10 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:20:10 INFO  time: compiled project_bd2c96d2de in 87ms[0m
+2023.02.18 23:20:21 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:20:21 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:20:21 INFO  time: compiled project_bd2c96d2de in 84ms[0m
+2023.02.18 23:21:33 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:21:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:21:33 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.18 23:21:37 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:21:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:21:37 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.18 23:23:08 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.18 23:23:08 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.18 23:23:08 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.18 23:23:08 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.18 23:23:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.18 23:23:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.18 23:23:09 INFO  BSP server: Checking https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.18 23:23:09 INFO  BSP server: Checked https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.18 23:23:09 INFO  BSP server: Downloading https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.18 23:23:09 INFO  BSP server: Downloaded https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.18 23:23:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] ; expected but : found
+class Scanner(code: String):
+                           ^[0m
+2023.02.18 23:23:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.18 23:23:41 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+Feb 21, 2023 1:54:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3192
+2023.02.21 13:55:06 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.21 13:55:06 INFO  BSP server: Checking https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.21 13:55:06 INFO  BSP server: Checked https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.21 13:55:06 INFO  BSP server: Downloading https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.21 13:55:06 INFO  BSP server: Downloaded https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.21 13:58:31 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType:
+^[0m
+2023.02.21 13:58:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 13:58:31 INFO  time: compiled project_bd2c96d2de in 86ms[0m
+2023.02.21 13:58:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 13:58:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 13:58:39 INFO  time: compiled project_bd2c96d2de in 54ms[0m
+2023.02.21 13:59:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum Colors:
+^[0m
+2023.02.21 13:59:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 13:59:32 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 13:59:45 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum Colors:
+^[0m
+2023.02.21 13:59:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 13:59:46 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 13:59:52 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 13:59:52 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 13:59:52 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 14:00:03 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum Colors:
+^[0m
+2023.02.21 14:00:03 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:00:03 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.21 14:00:07 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:00:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:00:07 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:01:43 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:01:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:01:43 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:04:14 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:04:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:04:14 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.21 14:04:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:04:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:04:32 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:04:36 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:04:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:04:36 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+Feb 21, 2023 2:05:04 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4268
+2023.02.21 14:05:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:05:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:05:15 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:05:28 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:05:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:05:28 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:05:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:05:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:05:46 INFO  time: compiled project_bd2c96d2de in 48ms[0m
+2023.02.21 14:05:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:05:48 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:05:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:05:48 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:05:48 INFO  time: compiled project_bd2c96d2de in 32ms[0m
+2023.02.21 14:05:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:06 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:06:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:06:07 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.21 14:06:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:06:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:06:11 INFO  time: compiled project_bd2c96d2de in 51ms[0m
+2023.02.21 14:06:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:06:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:03 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:07:03 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:07:03 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.21 14:07:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:07:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:15 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:23 INFO  time: compiled project_bd2c96d2de in 63ms[0m
+2023.02.21 14:08:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:30 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:32 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:08:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:36 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:37 INFO  time: compiled project_bd2c96d2de in 56ms[0m
+2023.02.21 14:08:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:38 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:38 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:38 INFO  time: compiled project_bd2c96d2de in 48ms[0m
+2023.02.21 14:08:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:40 INFO  time: compiled project_bd2c96d2de in 39ms[0m
+2023.02.21 14:08:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:42 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:42 INFO  time: compiled project_bd2c96d2de in 36ms[0m
+2023.02.21 14:08:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:46 INFO  time: compiled project_bd2c96d2de in 50ms[0m
+2023.02.21 14:08:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:51 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:51 INFO  time: compiled project_bd2c96d2de in 72ms[0m
+2023.02.21 14:08:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:53 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:53 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:53 INFO  time: compiled project_bd2c96d2de in 33ms[0m
+2023.02.21 14:08:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:55 INFO  time: compiled project_bd2c96d2de in 48ms[0m
+2023.02.21 14:08:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:58 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:58 INFO  time: compiled project_bd2c96d2de in 31ms[0m
+2023.02.21 14:08:58 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:08:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:08:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:08:58 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:08:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:09:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:09:23 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:09:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:27 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:55 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:65:53: stale bloop error: expression expected but unindent found
+    def scanToken(start: Int, current: Int): Token =
+                                                    ^[0m
+2023.02.21 14:09:55 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:65:53: stale bloop error: expression expected but unindent found
+    def scanToken(start: Int, current: Int): Token =
+                                                    ^[0m
+2023.02.21 14:09:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:09:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:09:56 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:09:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:59 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:67:23: stale bloop error: Found:    ("" : String)
+Required: Token
+            case _ => ""
+                      ^^[0m
+2023.02.21 14:09:59 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:67:23: stale bloop error: Found:    ("" : String)
+Required: Token
+            case _ => ""
+                      ^^[0m
+2023.02.21 14:09:59 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:09:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:09:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:09:59 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:11:02 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:11:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:11:02 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:11:21 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:11:21 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:11:21 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:11:28 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:11:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:11:28 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.21 14:11:31 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:11:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:11:31 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:12:00 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:00 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:12:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:00 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:12:05 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:06 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:06 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.21 14:12:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:15 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:12:26 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:26 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:12:27 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:27 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:27 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:12:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:32 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:12:35 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:35 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:12:35 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:35 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:12:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:40 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:12:54 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:12:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:12:54 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:13:05 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:13:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:13:05 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:13:07 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:13:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:13:07 INFO  time: compiled project_bd2c96d2de in 39ms[0m
+2023.02.21 14:13:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:13:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:13:15 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:14:20 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:14:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:14:20 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:14:26 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:14:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:14:26 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:14:34 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:14:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:14:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:14:34 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:14:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:14:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:14:40 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:15:42 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:15:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:15:42 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:15:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:43 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:15:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:15:43 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:15:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:15:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:15:46 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:15:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:55 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:73:27: stale bloop error: Found:    Unit
+Required: Token
+                case _ => Compiler.error(line, "Unexpected character")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:15:55 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:73:27: stale bloop error: Found:    Unit
+Required: Token
+                case _ => Compiler.error(line, "Unexpected character")
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:15:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:15:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:15:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:15:56 INFO  time: compiled project_bd2c96d2de in 0.27s[0m
+2023.02.21 14:15:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:22 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:16:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:22 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:16:22 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.21 14:16:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:30 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:16:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:30 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:16:30 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:16:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:16:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:16:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:16:46 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:18:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:18:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:18:13 INFO  time: compiled project_bd2c96d2de in 60ms[0m
+2023.02.21 14:18:31 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:18:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:18:31 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:18:35 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:18:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:18:35 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:18:38 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:18:38 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:18:38 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:19:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:19:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:19:14 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:19:56 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:19:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:19:56 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:21:22 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:21:22 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:21:22 INFO  time: compiled project_bd2c96d2de in 84ms[0m
+2023.02.21 14:21:25 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:21:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:21:26 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:22:12 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:12 INFO  time: compiled project_bd2c96d2de in 60ms[0m
+2023.02.21 14:22:20 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:84:52: stale bloop error: Not found: consumeUntilEndOfLine
+                case '/' => if matchNext('/') then consumeUntilEndOfLine() else newToken(Slash)
+                                                   ^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:22:20 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:84:52: stale bloop error: Not found: consumeUntilEndOfLine
+                case '/' => if matchNext('/') then consumeUntilEndOfLine() else newToken(Slash)
+                                                   ^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:22:21 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:84:52: stale bloop error: Not found: consumeUntilEndOfLine
+                case '/' => if matchNext('/') then consumeUntilEndOfLine() else newToken(Slash)
+                                                   ^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:22:21 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:84:52: stale bloop error: Not found: consumeUntilEndOfLine
+                case '/' => if matchNext('/') then consumeUntilEndOfLine() else newToken(Slash)
+                                                   ^^^^^^^^^^^^^^^^^^^^^[0m
+2023.02.21 14:22:34 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:34 INFO  time: compiled project_bd2c96d2de in 68ms[0m
+2023.02.21 14:22:36 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:36 INFO  time: compiled project_bd2c96d2de in 42ms[0m
+2023.02.21 14:22:37 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:37 INFO  time: compiled project_bd2c96d2de in 59ms[0m
+Feb 21, 2023 2:22:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6349
+2023.02.21 14:22:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:40 INFO  time: compiled project_bd2c96d2de in 44ms[0m
+2023.02.21 14:22:54 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:54 INFO  time: compiled project_bd2c96d2de in 59ms[0m
+2023.02.21 14:22:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:55 INFO  time: compiled project_bd2c96d2de in 40ms[0m
+2023.02.21 14:22:59 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:22:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:22:59 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:23:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:23:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:23:13 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:23:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:23:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:23:32 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:23:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:23:47 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:23:47 INFO  time: compiled project_bd2c96d2de in 59ms[0m
+2023.02.21 14:23:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:23:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:23:55 INFO  time: compiled project_bd2c96d2de in 58ms[0m
+2023.02.21 14:24:01 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:24:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:24:01 INFO  time: compiled project_bd2c96d2de in 59ms[0m
+2023.02.21 14:24:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:24:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:24:15 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:24:19 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:24:19 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:24:19 INFO  time: compiled project_bd2c96d2de in 44ms[0m
+2023.02.21 14:24:20 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:24:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:24:20 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.21 14:24:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:24:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:24:23 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.21 14:25:16 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:25:16 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:25:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:25:24 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:25:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:29 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:25:29 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:25:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:25:39 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.21 14:25:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:25:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:25:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:25:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:25:41 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:27:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:27:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:27:32 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:27:38 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:27:38 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:27:38 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:27:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:27:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:27:42 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:27:43 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:27:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:27:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:27:43 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.21 14:28:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:28:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:28:23 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:28:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:28:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:28:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:28:23 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.21 14:28:37 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:28:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:28:37 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+Feb 21, 2023 2:28:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6914
+2023.02.21 14:28:57 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:28:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:28:58 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.21 14:29:02 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:29:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:29:02 INFO  time: compiled project_bd2c96d2de in 56ms[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:08 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:72: error: invalid escape character
+                '\u000'
+                  ^[0m
+2023.02.21 14:29:09 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:18: stale bloop error: octal escape literals are unsupported: use \u0000 instead
+                '\0'
+                 ^[0m
+2023.02.21 14:29:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:29:09 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:23: stale bloop error: invalid character in unicode escape sequence
+                '\u000'
+                      ^[0m
+2023.02.21 14:29:09 INFO  time: compiled project_bd2c96d2de in 58ms[0m
+2023.02.21 14:29:11 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:23: stale bloop error: invalid character in unicode escape sequence
+                '\u000'
+                      ^[0m
+2023.02.21 14:29:11 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:72:23: stale bloop error: invalid character in unicode escape sequence
+                '\u000'
+                      ^[0m
+2023.02.21 14:29:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:29:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:29:11 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.21 14:30:50 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:30:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:30:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:30:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:30:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:30:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:30:50 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:30:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:30:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:30:55 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:31:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:31:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:31:40 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:31:56 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:31:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:31:56 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.19' (since 63h 26m 31.575s)[0m
+2023.02.21 14:31:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:31:56 INFO  time: compiled project_bd2c96d2de in 25ms[0m
+2023.02.21 14:33:00 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:33:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:33:00 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:33:33 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:33:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:33:33 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:33:59 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:34:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:34:00 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 14:34:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:07 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:34:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:34:08 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:34:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:34:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:34:13 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:34:20 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:34:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:34:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:34:20 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:34:54 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:34:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:34:55 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:35:35 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:35:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:35:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:35:35 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:36:03 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:36:03 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:36:03 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:36:06 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:36:06 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:36:06 INFO  time: compiled project_bd2c96d2de in 48ms[0m
+2023.02.21 14:36:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:36:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:36:09 INFO  time: compiled project_bd2c96d2de in 60ms[0m
+2023.02.21 14:37:17 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:37:17 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:37:17 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.21 14:37:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:37:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:37:24 INFO  time: compiled project_bd2c96d2de in 56ms[0m
+2023.02.21 14:37:29 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:37:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:37:29 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.21 14:38:05 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:05 INFO  time: compiled project_bd2c96d2de in 68ms[0m
+2023.02.21 14:38:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:09 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.21 14:38:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:11 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:38:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:14 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.21 14:38:13 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:14 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:38:18 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:18 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.21 14:38:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:46 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:38:49 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:38:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:38:49 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:39:28 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:39:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:39:28 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:39:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:39:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:39:41 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:39:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:45 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:39:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:39:45 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:39:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:46 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:39:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:39:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:46 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:39:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:39:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:04 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:40:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:08 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:08 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:40:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:40:12 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:12 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:40:18 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:18 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:40:20 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:20 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:40:25 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:26 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:40:30 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:30 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:30 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:40:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:40:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:40:39 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:42:39 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:42:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:42:39 INFO  time: compiled project_bd2c96d2de in 74ms[0m
+2023.02.21 14:42:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:42:54 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:42:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:42:54 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 14:42:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:27 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:43:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:43:40 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.21 14:43:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:51 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:43:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:43:51 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.21 14:43:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:43:51 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:43:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:43:51 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.21 14:43:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:17 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:27 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:27 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:28 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:44:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:44:28 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.21 14:44:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:32 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:44:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:44:32 INFO  time: compiled project_bd2c96d2de in 58ms[0m
+2023.02.21 14:44:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:40 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:44:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:44:40 INFO  time: compiled project_bd2c96d2de in 63ms[0m
+2023.02.21 14:44:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:44:55 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:44:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:44:55 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:45:45 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:45:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:45:45 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.21 14:46:17 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:46:17 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:46:17 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:46:18 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:46:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:46:18 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.21 14:46:44 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:46:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:46:45 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:48:08 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:48:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:48:08 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:48:18 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:48:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:48:18 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:48:23 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:48:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:48:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:48:24 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:48:34 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:48:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:48:34 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:48:49 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:48:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:48:49 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:51:25 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:51:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:51:25 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.21 14:51:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:29 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:51:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:51:29 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.21 14:51:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:37 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:58 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:51:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:51:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:51:58 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.21 14:51:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:52:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:52:09 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.21 14:52:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:52:21 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:52:21 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:52:21 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:53:07 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:53:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:53:07 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:53:16 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:53:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:53:16 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 14:54:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:54:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:54:41 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.21 14:55:02 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:55:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:55:02 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.21 14:55:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:55:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.21 14:55:04 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:55:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:55:04 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.21 14:55:08 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 14:55:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 14:55:08 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.21 15:39:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 15:39:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 15:39:41 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 15:39:41 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.21 15:40:15 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:4: error: [dialect scala213] illegal start of definition identifier
+enum TokenType {
+^[0m
+2023.02.21 15:40:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.21 15:40:16 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
