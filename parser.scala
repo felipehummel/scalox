@@ -5,6 +5,12 @@ case class Binary(left: Expr, operator: Token, right: Expr) extends Expr
 case class Grouping(expression: Expr) extends Expr
 case class Literal(value: LoxRuntimeLiteral) extends Expr
 case class Unary(operator: Token, right: Expr) extends Expr
+case class Variable(name: Token) extends Expr
+
+sealed trait Stmt
+case class Expression(expression: Expr) extends Stmt
+case class Print(expression: Expr) extends Stmt
+case class Var(name: Token, initializer: Expr) extends Stmt
 
 object AstPrinter:
   private def parenthesize(name: String, exprs: Expr*): String =
@@ -24,6 +30,7 @@ object AstPrinter:
       case Grouping(expression)   => parenthesize("group", expression)
       case Literal(value)         => value.toString
       case Unary(operator, right) => parenthesize(operator.lexeme, right)
+      case Variable(name)         => parenthesize("var", Literal(name.lexeme))
     }
 
 class ParserError extends RuntimeException
@@ -38,12 +45,46 @@ object Parser:
 class Parser(tokens: Array[Token]):
   private var current = 0
 
-  def parse(): Option[Expr] =
+  def parse(): List[Stmt] =
     try {
-      Some(expression())
+      var statements = List[Stmt]()
+      while (!isAtEnd()) {
+        statements = statements :+ declaration()
+      }
+
+      statements
     } catch {
-      case e: ParserError => None
+      case e: ParserError => Nil
     }
+
+  def declaration(): Stmt =
+    if (matchNext(TokenType.Var)) varDeclaration()
+    else statement()
+
+  def varDeclaration(): Stmt =
+    val name = consume(TokenType.Identifier, "Expect variable name.")
+    consume(
+      TokenType.Equal,
+      "Expect '=' after variable name in variable declation."
+    )
+    var initializer = expression()
+
+    consume(TokenType.SemiColon, "Expect ';' after variable declaration.")
+    Var(name, initializer)
+
+  def statement(): Stmt =
+    if (matchNext(TokenType.Print)) printStatement()
+    else expressionStatement()
+
+  def printStatement(): Stmt =
+    val value = expression()
+    consume(TokenType.SemiColon, "Expect ';' after value.")
+    Print(value)
+
+  def expressionStatement(): Stmt =
+    val expr = expression()
+    consume(TokenType.SemiColon, "Expect ';' after expression.")
+    Expression(expr)
 
   def expression(): Expr =
     val expr = equality()
@@ -117,6 +158,8 @@ class Parser(tokens: Array[Token]):
       val expr = expression()
       consume(TokenType.RightParen, "Expect ')' after expression.")
       Grouping(expr)
+    } else if (matchNext(TokenType.Identifier)) {
+      Variable(previous())
     } else
       throw error(
         peek(),
@@ -125,7 +168,7 @@ class Parser(tokens: Array[Token]):
 
   def consume(tokenType: TokenType, message: String): Token =
     if (check(tokenType)) advance()
-    else throw new RuntimeException(message)
+    else throw error(peek(), message)
 
   def synchronize(): Unit =
     advance()

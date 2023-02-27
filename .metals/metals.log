@@ -2684,3 +2684,823 @@ match arguments ((evaluatedLeft : scalox.LoxRuntimeLiteral), (evaluatedRight : s
 2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
 2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
 2023.02.27 16:33:02 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:00:02 WARN  no build target for: /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:00:09 INFO  Disconnecting from scala-cli session...[0m
+2023.02.27 17:00:09 INFO  Shut down connection with build server.[0m
+2023.02.27 17:00:09 INFO  Attempting to connect to the build server...[0m
+2023.02.27 17:00:09 INFO  Cancelling compilation on scala-cli server[0m
+2023.02.27 17:00:09 INFO  Running BSP server [/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/felipehummel/dev/scalox/.scala-build/ide-options-v2.json, /Users/felipehummel/dev/scalox][0m
+2023.02.27 17:00:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/bsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.27 17:00:10 WARN  no build target for: /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:00:13 WARN  no build target for: /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:00:16 INFO  time: Connected to build server in 6.33s[0m
+2023.02.27 17:00:16 INFO  Connected to Build server: scala-cli v0.1.19[0m
+2023.02.27 17:00:16 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:00:16 INFO  time: compiled project_bd2c96d2de in 0.21s[0m
+2023.02.27 17:00:16 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:00:16 INFO  time: compiled project_bd2c96d2de in 0.21s[0m
+2023.02.27 17:00:17 INFO  time: indexed workspace in 0.73s[0m
+2023.02.27 17:00:16 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:00:17 INFO  time: compiled project_bd2c96d2de in 0.67s[0m
+2023.02.27 17:00:17 INFO  Refreshed build after change[0m
+2023.02.27 17:00:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:00:49 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 17:02:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:05 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.27 17:02:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+Feb 27, 2023 5:02:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7956
+2023.02.27 17:02:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:14 INFO  time: compiled project_bd2c96d2de in 60ms[0m
+2023.02.27 17:02:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:18 INFO  time: compiled project_bd2c96d2de in 66ms[0m
+2023.02.27 17:02:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:33 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:02:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:40 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:02:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:02:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:02:56 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:02:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:03:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:11 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:03:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:15 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:03:35 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:03:35 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:52 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:03:52 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:03:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:03:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:03:59 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:03:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:15 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:04:15 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:04:15 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:15 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 17:04:15 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:04:25 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:25 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.27 17:04:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:33 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:33 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:04:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:44 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:60: error: [dialect scala3] } expected but end of file found
+
+^[0m
+2023.02.27 17:04:44 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:45 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:45 INFO  time: compiled project_bd2c96d2de in 66ms[0m
+2023.02.27 17:04:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:04:49 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:49 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 17:04:51 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:04:51 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 17:05:08 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:08 INFO  time: compiled project_bd2c96d2de in 83ms[0m
+2023.02.27 17:05:14 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:14 INFO  time: compiled project_bd2c96d2de in 78ms[0m
+2023.02.27 17:05:25 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:25 INFO  time: compiled project_bd2c96d2de in 78ms[0m
+2023.02.27 17:05:29 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:29 INFO  time: compiled project_bd2c96d2de in 84ms[0m
+2023.02.27 17:05:29 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:29 INFO  time: compiled project_bd2c96d2de in 63ms[0m
+2023.02.27 17:05:35 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:35 INFO  time: compiled project_bd2c96d2de in 86ms[0m
+2023.02.27 17:05:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:59 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:05:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 17:05:59 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 17:07:30 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:07:30 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:07:44 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:07:44 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+Feb 27, 2023 5:08:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:789)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:3954)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:3937)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4046)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$2(ScalametaParser.scala:2137)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2135)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1625)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$ifClause$1(ScalametaParser.scala:1490)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.ifClause(ScalametaParser.scala:1479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1538)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2399)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2393)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2390)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1441)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3646)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3556)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3378)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3357)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4317)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4311)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4303)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4170)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:280)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4170)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4140)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3777)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3752)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3711)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:129)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:122)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:92)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:321)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.27 17:08:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:08:13 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.27 17:08:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:08:13 INFO  time: compiled project_bd2c96d2de in 51ms[0m
+Feb 27, 2023 5:08:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+java.util.concurrent.CompletionException: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1(CancelTokens.scala:40)
+	at scala.meta.internal.metals.CancelTokens$.$anonfun$future$1$adapted(CancelTokens.scala:38)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: org.scalameta.invariants.InvariantFailedException: invariant failed:
+when verifying scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable
+found that scala.meta.internal.trees.`package`.XtensionTreesType(tpe).isConstructable is false
+where tpe = (tokenType, message)
+	at org.scalameta.invariants.InvariantFailedException$.raise(Exceptions.scala:19)
+	at scala.meta.Init$.apply(Trees.scala:789)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$initRest$1(ScalametaParser.scala:3979)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.initRest(ScalametaParser.scala:3954)
+	at scala.meta.internal.parsers.ScalametaParser.initInsideTemplate(ScalametaParser.scala:3937)
+	at scala.meta.internal.parsers.ScalametaParser.init(ScalametaParser.scala:4036)
+	at scala.meta.internal.parsers.ScalametaParser.templateParents(ScalametaParser.scala:4046)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$template$1(ScalametaParser.scala:4094)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.template(ScalametaParser.scala:4082)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$simpleExpr0$2(ScalametaParser.scala:2137)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr0(ScalametaParser.scala:2135)
+	at scala.meta.internal.parsers.ScalametaParser.simpleExpr(ScalametaParser.scala:2103)
+	at scala.meta.internal.parsers.ScalametaParser.prefixExpr(ScalametaParser.scala:2086)
+	at scala.meta.internal.parsers.ScalametaParser.postfixExpr(ScalametaParser.scala:2005)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1631)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1625)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1419)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1443)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$ifClause$1(ScalametaParser.scala:1490)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.ifClause(ScalametaParser.scala:1479)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$expr$2(ScalametaParser.scala:1538)
+	at scala.meta.internal.parsers.ScalametaParser.atPosOpt(ScalametaParser.scala:330)
+	at scala.meta.internal.parsers.ScalametaParser.autoPosOpt(ScalametaParser.scala:380)
+	at scala.meta.internal.parsers.ScalametaParser.expr(ScalametaParser.scala:1532)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$3(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.stat(ScalametaParser.scala:4244)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1(ScalametaParser.scala:4388)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$blockStatSeq$1$adapted(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.blockStatSeq(ScalametaParser.scala:4370)
+	at scala.meta.internal.parsers.ScalametaParser.blockWithStats$1(ScalametaParser.scala:2394)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$block$1(ScalametaParser.scala:2399)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.block(ScalametaParser.scala:2393)
+	at scala.meta.internal.parsers.ScalametaParser.blockExpr(ScalametaParser.scala:2390)
+	at scala.meta.internal.parsers.ScalametaParser.exprMaybeIndented(ScalametaParser.scala:1441)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$funDefRest$1(ScalametaParser.scala:3646)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.funDefRest(ScalametaParser.scala:3612)
+	at scala.meta.internal.parsers.ScalametaParser.funDefOrDclOrExtensionOrSecondaryCtor(ScalametaParser.scala:3556)
+	at scala.meta.internal.parsers.ScalametaParser.defOrDclOrSecondaryCtor(ScalametaParser.scala:3378)
+	at scala.meta.internal.parsers.ScalametaParser.nonLocalDefOrDcl(ScalametaParser.scala:3357)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4317)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$templateStat$1.applyOrElse(ScalametaParser.scala:4311)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1(ScalametaParser.scala:4303)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateStatSeq$1$adapted(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.scala$meta$internal$parsers$ScalametaParser$$listBy(ScalametaParser.scala:541)
+	at scala.meta.internal.parsers.ScalametaParser.templateStatSeq(ScalametaParser.scala:4302)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateBodyOpt$1(ScalametaParser.scala:4170)
+	at scala.meta.internal.parsers.ScalametaParser.indentedOnOpen(ScalametaParser.scala:280)
+	at scala.meta.internal.parsers.ScalametaParser.templateBodyOpt(ScalametaParser.scala:4170)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$templateOpt$1(ScalametaParser.scala:4140)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.templateOpt(ScalametaParser.scala:4114)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$classDef$1(ScalametaParser.scala:3777)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:387)
+	at scala.meta.internal.parsers.ScalametaParser.classDef(ScalametaParser.scala:3752)
+	at scala.meta.internal.parsers.ScalametaParser.tmplDef(ScalametaParser.scala:3711)
+	at scala.meta.internal.parsers.ScalametaParser.topLevelTmplDef(ScalametaParser.scala:3696)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4282)
+	at scala.meta.internal.parsers.ScalametaParser$$anonfun$2.applyOrElse(ScalametaParser.scala:4270)
+	at scala.PartialFunction.$anonfun$runWith$1(PartialFunction.scala:231)
+	at scala.PartialFunction.$anonfun$runWith$1$adapted(PartialFunction.scala:230)
+	at scala.meta.internal.parsers.ScalametaParser.statSeqBuf(ScalametaParser.scala:4263)
+	at scala.meta.internal.parsers.ScalametaParser.bracelessPackageStats$1(ScalametaParser.scala:4461)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$12(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.autoEndPos(ScalametaParser.scala:382)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$11(ScalametaParser.scala:4474)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:4474)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4431)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:327)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:379)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4424)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4429)
+	at scala.meta.internal.parsers.ScalametaParser.parseSourceImpl(ScalametaParser.scala:129)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$1(ScalametaParser.scala:126)
+	at scala.meta.internal.parsers.ScalametaParser.parseRuleAfterBOF(ScalametaParser.scala:53)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:48)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:126)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.parsers.Parse$$anon$1.apply(Parse.scala:36)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.parsing.Trees.$anonfun$parse$2(Trees.scala:129)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.parsing.Trees.parse(Trees.scala:122)
+	at scala.meta.internal.parsing.Trees.didChange(Trees.scala:92)
+	at scala.meta.internal.metals.MetalsLanguageServer.$anonfun$parseTreesAndPublishDiags$2(MetalsLanguageServer.scala:321)
+	at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)
+	at scala.concurrent.Future$.$anonfun$apply$1(Future.scala:678)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	... 3 more
+
+2023.02.27 17:08:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:08:35 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:08:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:08:50 INFO  time: compiled project_bd2c96d2de in 71ms[0m
+2023.02.27 17:08:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:08:50 INFO  time: compiled project_bd2c96d2de in 48ms[0m
+2023.02.27 17:10:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:10:41 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+Feb 27, 2023 5:10:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9019
+2023.02.27 17:10:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:10:59 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.27 17:11:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:11:20 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:13:22 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:13:22 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:18:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:18:09 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:18:09 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:18:09 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:18:48 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:18:48 INFO  time: compiled project_bd2c96d2de in 73ms[0m
+2023.02.27 17:20:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:20:08 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 17:20:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:20:20 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:20:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:20:56 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 17:21:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:21:04 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:21:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:21:05 INFO  time: compiled project_bd2c96d2de in 80ms[0m
+2023.02.27 17:22:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:22:33 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:22:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:22:50 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:23:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:29 INFO  time: compiled project_bd2c96d2de in 69ms[0m
+2023.02.27 17:23:33 ERROR scalafmt: /Users/felipehummel/dev/scalox/parser.scala:164: error: [dialect scala3] ) expected but } found
+    } else
+    ^[0m
+2023.02.27 17:23:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:34 INFO  time: compiled project_bd2c96d2de in 62ms[0m
+2023.02.27 17:23:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:34 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:23:34 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:23:34 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:23:48 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:48 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:23:52 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:52 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 17:23:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:55 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 17:23:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:23:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:23:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:58 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:23:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:23:58 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.27 17:24:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:24:15 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:25:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:01 INFO  time: compiled project_bd2c96d2de in 66ms[0m
+2023.02.27 17:25:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:08 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 17:25:44 ERROR scalafmt: /Users/felipehummel/dev/scalox/interpreter.scala:54: error: [dialect scala3] ) expected but ( found
+  def evaluate(expr: Expr)(globalScope: Map[String, LoxRuntimeLiteral]()] ): LoxRuntimeLiteral =
+                                                                      ^[0m
+2023.02.27 17:25:44 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:44 INFO  time: compiled project_bd2c96d2de in 0.58s[0m
+2023.02.27 17:25:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:46 INFO  time: compiled project_bd2c96d2de in 0.61s[0m
+2023.02.27 17:25:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:56 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.19' (since 25m 46.633s)[0m
+2023.02.27 17:25:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:25:56 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 17:26:09 ERROR scalafmt: /Users/felipehummel/dev/scalox/interpreter.scala:19: error: [dialect scala3] abstract givens cannot be annonymous
+    given globalScope
+          ^[0m
+2023.02.27 17:26:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:26:09 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:26:17 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:26:17 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:26:19 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:26:19 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:26:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/interpreter.scala:19: error: [dialect scala3] abstract givens cannot be annonymous
+    given globalScope
+          ^[0m
+2023.02.27 17:26:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:26:24 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:26:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:26:26 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 17:27:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:27:13 INFO  time: compiled project_bd2c96d2de in 0.22s[0m
+2023.02.27 17:27:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:27:25 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 17:27:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:27:45 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 17:27:47 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:27:47 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 17:28:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:00 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:28:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:02 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:28:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:05 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:28:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:12 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:28:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:37 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:28:41 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:41 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:28:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:42 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:28:43 ERROR scalafmt: /Users/felipehummel/dev/scalox/interpreter.scala:18: error: [dialect scala3] ; expected but = found
+    given globalScope: collection.mutable.Map[String, LoxRuntimeLiteral]() = collection.mutable.Map[String, LoxRuntimeLiteral]()
+                                                                           ^[0m
+2023.02.27 17:28:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:43 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 17:28:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:45 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 17:28:57 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:28:57 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 17:29:04 ERROR scalafmt: /Users/felipehummel/dev/scalox/interpreter.scala:12: error: [dialect scala3] ) expected but } found
+    } catch {
+    ^[0m
+2023.02.27 17:29:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:04 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:29:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:05 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:29:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:09 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:29:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:09 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 17:29:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:12 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:29:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:29:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 17:29:54 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:32:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:32:16 INFO  time: compiled project_bd2c96d2de in 69ms[0m
+2023.02.27 17:32:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:32:25 INFO  time: compiled project_bd2c96d2de in 80ms[0m
+2023.02.27 17:32:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:32:33 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:32:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:32:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:32:45 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 17:32:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:32:56 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 17:33:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:00 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.27 17:33:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:04 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 17:33:10 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:10 INFO  time: compiled project_bd2c96d2de in 56ms[0m
+2023.02.27 17:33:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:16 INFO  time: compiled project_bd2c96d2de in 0.19s[0m
+2023.02.27 17:33:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:24 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.27 17:33:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:26 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 17:33:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:28 INFO  time: compiled project_bd2c96d2de in 66ms[0m
+2023.02.27 17:33:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:34 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:33:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:36 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:33:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:37 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.27 17:33:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:33:50 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:38:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:05 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:38:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:11 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:38:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:14 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:38:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:16 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:18 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:18 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:38:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:21 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:26 INFO  time: compiled project_bd2c96d2de in 0.21s[0m
+2023.02.27 17:38:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 17:38:32 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:38:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:38:50 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:38:50 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:39:02 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:02 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 17:39:05 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:05 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:39:18 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:18 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:39:20 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:20 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:39:25 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:25 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:39:25 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:25 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:39:33 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:33 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:39:35 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:35 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:39:35 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:35 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:39:36 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:36 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:39:39 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:39 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 17:39:50 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:39:50 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 17:39:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:09 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:40:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:09 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 17:40:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:11 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:40:11 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 17:40:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:12 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:40:12 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 17:40:12 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 17:40:12 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 17:40:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+2023.02.27 17:40:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/interpreter.scala[0m
+java.lang.AssertionError: assertion failed while typechecking /Users/felipehummel/dev/scalox/parser.scala
+Feb 27, 2023 5:40:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:11)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:116)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2299)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:3764)
+	at dotty.tools.dotc.core.Types$TermLambda.foldArgs$2(Types.scala:3771)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:4361)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$depStatus(Types.scala:3791)
+	at dotty.tools.dotc.core.Types$TermLambda.dependencyStatus(Types.scala:3805)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent(Types.scala:3827)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent$(Types.scala:3721)
+	at dotty.tools.dotc.core.Types$MethodType.isResultDependent(Types.scala:3865)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams(TypeAssigner.scala:293)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.safeSubstMethodParams(Typer.scala:121)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType(TypeAssigner.scala:301)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.assignType(Typer.scala:121)
+	at dotty.tools.dotc.ast.tpd$.Apply(tpd.scala:49)
+	at dotty.tools.dotc.ast.tpd$TreeOps$.appliedToTermArgs$extension(tpd.scala:935)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:521)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:512)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:215)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:218)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:120)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:380)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2861)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2886)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2982)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3076)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3126)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2687)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2953)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3170)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:429)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:233)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:244)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:252)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:261)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:261)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:185)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.AutoImportsProvider.autoImports(AutoImportsProvider.scala:41)
+
+2023.02.27 17:40:23 INFO  compiling project_bd2c96d2de (4 scala sources)[0m
+2023.02.27 17:40:23 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
