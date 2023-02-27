@@ -2,15 +2,31 @@ package scalox
 
 class Environment:
   val values = collection.mutable.Map[String, LoxRuntimeLiteral]()
+  var enclosing: Option[Environment] = None
 
   def define(name: String, value: LoxRuntimeLiteral): Unit =
     values += name -> value
 
-  def get(name: Token): LoxRuntimeLiteral =
-    values.get(name.lexeme) match {
-      case Some(value) => value
+  def assign(name: Token, value: LoxRuntimeLiteral): Unit =
+    enclosing match {
+      case Some(enclosedEnv) => enclosedEnv.assign(name, value)
       case None =>
+        values.get(name.lexeme) match {
+          case Some(_) =>
+            values += name.lexeme -> value
+          case None =>
+            throw LoxRuntimeError(name, "Undefined variable.")
+        }
+    }
+
+  def isDefined(name: Token): Boolean =
+    enclosing.map(_.isDefined(name)).getOrElse(values.contains(name.lexeme))
+
+  def get(name: Token): LoxRuntimeLiteral =
+    values.get(name.lexeme).getOrElse {
+      enclosing.map(_.get(name)).getOrElse {
         throw LoxRuntimeError(name, "Undefined variable.")
+      }
     }
 
 case class LoxRuntimeError(token: Token, msg: String)
@@ -18,7 +34,7 @@ case class LoxRuntimeError(token: Token, msg: String)
 
 class Interpreter:
   var hadRuntimeError = false
-  val env = new Environment()
+  var env = new Environment()
 
   def interpret(expr: Expr): Unit =
     try {
@@ -35,10 +51,24 @@ class Interpreter:
         case Print(expr)      => println(evaluate(expr))
         case Var(name, init) =>
           env.define(name.lexeme, evaluate(init))
+        case Block(stmts) =>
+          executeBlock(stmts)
       }
     } catch {
       case e: LoxRuntimeError =>
         runtimeError(e)
+    }
+
+  def executeBlock(stmts: List[Stmt]): Unit =
+    val newBlockEnv = new Environment()
+    newBlockEnv.enclosing = Some(env)
+
+    val previousEnv = env
+    try {
+      env = newBlockEnv
+      interpret(stmts)
+    } finally {
+      env = previousEnv
     }
 
   def runtimeError(error: LoxRuntimeError): Unit =
@@ -118,7 +148,12 @@ class Interpreter:
           case TokenType.Bang  => !isTruthy(evaluatedRight)
           case _ => throw new RuntimeException(s"Invalid operator $operator")
         }
-      case Variable(name) => env.get(name)
+      case Variable(name) =>
+        env.get(name)
+      case Assignment(name, value) =>
+        val evaluated = evaluate(value)
+        env.assign(name, evaluated)
+        evaluated
     }
 
   def isTruthy(value: LoxRuntimeLiteral): Boolean =

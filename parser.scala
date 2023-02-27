@@ -6,11 +6,13 @@ case class Grouping(expression: Expr) extends Expr
 case class Literal(value: LoxRuntimeLiteral) extends Expr
 case class Unary(operator: Token, right: Expr) extends Expr
 case class Variable(name: Token) extends Expr
+case class Assignment(name: Token, value: Expr) extends Expr
 
 sealed trait Stmt
 case class Expression(expression: Expr) extends Stmt
 case class Print(expression: Expr) extends Stmt
 case class Var(name: Token, initializer: Expr) extends Stmt
+case class Block(statements: List[Stmt]) extends Stmt
 
 object AstPrinter:
   private def parenthesize(name: String, exprs: Expr*): String =
@@ -31,6 +33,8 @@ object AstPrinter:
       case Literal(value)         => value.toString
       case Unary(operator, right) => parenthesize(operator.lexeme, right)
       case Variable(name)         => parenthesize("var", Literal(name.lexeme))
+      case Assignment(name, value) =>
+        parenthesize("=", Literal(name.lexeme), value)
     }
 
 class ParserError extends RuntimeException
@@ -74,7 +78,17 @@ class Parser(tokens: Array[Token]):
 
   def statement(): Stmt =
     if (matchNext(TokenType.Print)) printStatement()
+    else if (matchNext(TokenType.LeftBrace)) Block(block())
     else expressionStatement()
+
+  def block(): List[Stmt] =
+    var statements = List[Stmt]()
+    while (!check(TokenType.RightBrace) && !isAtEnd()) {
+      statements = statements :+ declaration()
+    }
+
+    consume(TokenType.RightBrace, "Expect '}' after block.")
+    List(Block(statements))
 
   def printStatement(): Stmt =
     val value = expression()
@@ -87,8 +101,20 @@ class Parser(tokens: Array[Token]):
     Expression(expr)
 
   def expression(): Expr =
-    val expr = equality()
-    expr
+    assignment()
+
+  def assignment(): Expr =
+    var expr = equality()
+
+    if (matchNext(TokenType.Equal)) {
+      val equals = previous()
+      val value = assignment()
+
+      expr match {
+        case Variable(name) => Assignment(name, value)
+        case _              => throw error(equals, "Invalid assignment target")
+      }
+    } else expr
 
   def equality(): Expr =
     var expr = comparison()
