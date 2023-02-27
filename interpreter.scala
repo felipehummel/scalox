@@ -45,6 +45,14 @@ class Interpreter:
     }
 
   def interpret(stmts: List[Stmt]): Unit =
+    if (stmts.length == 1) {
+      stmts.head match {
+        case Expression(expr) =>
+          println(evaluate(expr))
+          return
+        case _ =>
+      }
+    }
     try {
       stmts.foreach {
         case Expression(expr) => evaluate(expr)
