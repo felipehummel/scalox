@@ -1635,3 +1635,1052 @@ enum TokenType {
 ^[0m
 2023.02.21 15:40:16 INFO  compiling project_bd2c96d2de (1 scala source)[0m
 2023.02.21 15:40:16 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.23 16:05:02 INFO  shutting down Metals[0m
+2023.02.23 16:05:02 INFO  Shut down connection with build server.[0m
+2023.02.27 14:29:52 INFO  tracing is disabled for protocol LSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/lsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/lsp.trace.json[0m
+2023.02.27 14:29:52 INFO  logging to file /Users/felipehummel/dev/scalox/.metals/metals.log[0m
+2023.02.27 14:29:52 INFO  Started: Metals version 0.11.10 in workspace '/Users/felipehummel/dev/scalox' for client Visual Studio Code 1.75.1.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/Users/felipehummel/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.10.5/scribe-slf4j_2.13-3.10.5.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.02.27 14:29:53 INFO  time: initialize in 0.65s[0m
+2023.02.27 14:29:54 INFO  Attempting to connect to the build server...[0m
+2023.02.27 14:29:54 INFO  Running BSP server [/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/felipehummel/dev/scalox/.scala-build/ide-options-v2.json, /Users/felipehummel/dev/scalox][0m
+2023.02.27 14:29:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/bsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.27 14:29:55 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml[0m
+2023.02.27 14:29:55 INFO  BSP server: Checking https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.27 14:29:55 INFO  BSP server: Checked https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.27 14:29:55 INFO  BSP server: Downloading https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.27 14:29:55 INFO  BSP server: Downloaded https://github.com/VirtusLab/scala-cli-scala-versions/raw/main/scala-versions-v1.json[0m
+2023.02.27 14:29:56 INFO  no build target found for /Users/felipehummel/dev/scalox/compiler.scala. Using presentation compiler with project's scala-library version: 3.2.1[0m
+2023.02.27 14:29:58 INFO  time: code lens generation in 3.44s[0m
+2023.02.27 14:30:02 INFO  time: Connected to build server in 7.92s[0m
+2023.02.27 14:30:02 INFO  Connected to Build server: scala-cli v0.1.19[0m
+2023.02.27 14:30:02 INFO  Required scalafmt dialect rewrite to 'scala3'. Directories:
+- compiler.scala[0m
+2023.02.27 14:30:02 INFO  time: indexed workspace in 0.8s[0m
+2023.02.27 14:45:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:45:04 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 14:45:21 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:75: error: [dialect scala3] illegal start of simple expression
+  def print(expr: Expr): String =
+  ^[0m
+2023.02.27 14:45:21 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:45:21 INFO  time: compiled project_bd2c96d2de in 64ms[0m
+2023.02.27 14:45:24 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:65: error: [dialect scala3] expected template body
+private def parenthesize(name: String, exprs: Expr*): String =
+^[0m
+2023.02.27 14:45:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:45:24 INFO  time: compiled project_bd2c96d2de in 51ms[0m
+2023.02.27 14:45:42 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:75: error: [dialect scala3] illegal start of simple expression
+  def print(expr: Expr): String =
+  ^[0m
+2023.02.27 14:45:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:45:42 INFO  time: compiled project_bd2c96d2de in 58ms[0m
+2023.02.27 14:45:48 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:45:48 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 14:47:11 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:258: error: [dialect scala3] ) expected but def found
+  def main(args: Array[String]): Unit =
+  ^[0m
+2023.02.27 14:47:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 14:47:12 INFO  time: compiled project_bd2c96d2de in 95ms[0m
+2023.02.27 14:47:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 14:47:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 14:47:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 14:47:47 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 14:47:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 14:47:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:15:23 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:15:23 INFO  time: compiled project_bd2c96d2de in 94ms[0m
+2023.02.27 15:15:44 WARN  no build target for: /Users/felipehummel/dev/scalox/scanner.scala[0m
+2023.02.27 15:15:47 INFO  Disconnecting from scala-cli session...[0m
+2023.02.27 15:15:47 INFO  Shut down connection with build server.[0m
+2023.02.27 15:15:47 INFO  Attempting to connect to the build server...[0m
+2023.02.27 15:15:47 INFO  Cancelling compilation on scala-cli server[0m
+2023.02.27 15:15:47 INFO  Running BSP server [/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/felipehummel/dev/scalox/.scala-build/ide-options-v2.json, /Users/felipehummel/dev/scalox][0m
+2023.02.27 15:15:47 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/bsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.27 15:15:52 WARN  no build target for: /Users/felipehummel/dev/scalox/scanner.scala[0m
+2023.02.27 15:15:53 INFO  time: Connected to build server in 6.39s[0m
+2023.02.27 15:15:53 INFO  Connected to Build server: scala-cli v0.1.19[0m
+2023.02.27 15:15:53 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:15:53 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:15:53 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:15:53 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 15:15:54 INFO  time: indexed workspace in 0.76s[0m
+2023.02.27 15:15:53 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:15:55 INFO  time: compiled project_bd2c96d2de in 0.7s[0m
+2023.02.27 15:15:55 INFO  Refreshed build after change[0m
+2023.02.27 15:16:02 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:02 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.27 15:16:19 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:19 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.27 15:16:33 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:33 INFO  time: compiled project_bd2c96d2de in 66ms[0m
+2023.02.27 15:16:35 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:35 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+java.lang.AssertionError: assertion failed while typechecking /Users/felipehummel/dev/scalox/compiler.scala
+Feb 27, 2023 3:16:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:11)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:116)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2299)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:3764)
+	at dotty.tools.dotc.core.Types$TermLambda.foldArgs$2(Types.scala:3771)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:4361)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$depStatus(Types.scala:3791)
+	at dotty.tools.dotc.core.Types$TermLambda.dependencyStatus(Types.scala:3805)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent(Types.scala:3827)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent$(Types.scala:3721)
+	at dotty.tools.dotc.core.Types$MethodType.isResultDependent(Types.scala:3865)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams(TypeAssigner.scala:293)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.safeSubstMethodParams(Typer.scala:121)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType(TypeAssigner.scala:301)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.assignType(Typer.scala:121)
+	at dotty.tools.dotc.ast.tpd$.Apply(tpd.scala:49)
+	at dotty.tools.dotc.ast.tpd$TreeOps$.appliedToTermArgs$extension(tpd.scala:935)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:521)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:512)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:215)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:218)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:120)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:380)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2861)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2886)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2982)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3076)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3126)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2687)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2953)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3170)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:429)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:233)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:244)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:252)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:261)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:261)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:185)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:47)
+
+2023.02.27 15:16:45 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:45 INFO  time: compiled project_bd2c96d2de in 0.19s[0m
+2023.02.27 15:16:49 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:16:49 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:16:58 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+Exception in thread "pool-8-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.02.27 15:16:58 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+Exception in thread "pool-8-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:195)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+java.lang.AssertionError: assertion failed while typechecking /Users/felipehummel/dev/scalox/compiler.scala
+Feb 27, 2023 3:17:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:11)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:116)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2299)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:3764)
+	at dotty.tools.dotc.core.Types$TermLambda.foldArgs$2(Types.scala:3771)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:4361)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$depStatus(Types.scala:3791)
+	at dotty.tools.dotc.core.Types$TermLambda.dependencyStatus(Types.scala:3805)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent(Types.scala:3827)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent$(Types.scala:3721)
+	at dotty.tools.dotc.core.Types$MethodType.isResultDependent(Types.scala:3865)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams(TypeAssigner.scala:293)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.safeSubstMethodParams(Typer.scala:121)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType(TypeAssigner.scala:301)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.assignType(Typer.scala:121)
+	at dotty.tools.dotc.ast.tpd$.Apply(tpd.scala:49)
+	at dotty.tools.dotc.ast.tpd$TreeOps$.appliedToTermArgs$extension(tpd.scala:935)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:521)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:512)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:215)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:218)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:120)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:380)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2861)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2886)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2982)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3076)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3126)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2687)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2953)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3170)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:429)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:233)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:244)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:252)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:261)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:261)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:185)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:47)
+
+java.lang.AssertionError: assertion failed while typechecking /Users/felipehummel/dev/scalox/compiler.scala
+Feb 27, 2023 3:17:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:11)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:116)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2299)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:3764)
+	at dotty.tools.dotc.core.Types$TermLambda.foldArgs$2(Types.scala:3771)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:4361)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$depStatus(Types.scala:3791)
+	at dotty.tools.dotc.core.Types$TermLambda.dependencyStatus(Types.scala:3805)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent(Types.scala:3827)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent$(Types.scala:3721)
+	at dotty.tools.dotc.core.Types$MethodType.isResultDependent(Types.scala:3865)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams(TypeAssigner.scala:293)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.safeSubstMethodParams(Typer.scala:121)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType(TypeAssigner.scala:301)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.assignType(Typer.scala:121)
+	at dotty.tools.dotc.ast.tpd$.Apply(tpd.scala:49)
+	at dotty.tools.dotc.ast.tpd$TreeOps$.appliedToTermArgs$extension(tpd.scala:935)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:521)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:512)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:215)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:218)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:120)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:380)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2861)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2886)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2982)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3076)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3126)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2687)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2953)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3170)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:429)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:233)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:244)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:252)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:261)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:261)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:185)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.completions.CompletionProvider.completions(CompletionProvider.scala:47)
+
+2023.02.27 15:17:24 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:24 INFO  time: compiled project_bd2c96d2de in 0.19s[0m
+2023.02.27 15:17:26 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:26 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+java.lang.AssertionError: assertion failed while typechecking /Users/felipehummel/dev/scalox/compiler.scala
+Feb 27, 2023 3:17:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: assertion failed
+java.lang.AssertionError: assertion failed
+	at scala.runtime.Scala3RunTime$.assertFailed(Scala3RunTime.scala:11)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:116)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.Types$NamedType.info(Types.scala:2299)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:3764)
+	at dotty.tools.dotc.core.Types$TermLambda.foldArgs$2(Types.scala:3771)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$_$compute$1(Types.scala:4361)
+	at dotty.tools.dotc.core.Types$TermLambda.dotty$tools$dotc$core$Types$TermLambda$$depStatus(Types.scala:3791)
+	at dotty.tools.dotc.core.Types$TermLambda.dependencyStatus(Types.scala:3805)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent(Types.scala:3827)
+	at dotty.tools.dotc.core.Types$TermLambda.isResultDependent$(Types.scala:3721)
+	at dotty.tools.dotc.core.Types$MethodType.isResultDependent(Types.scala:3865)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams(TypeAssigner.scala:293)
+	at dotty.tools.dotc.typer.TypeAssigner.safeSubstMethodParams$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.safeSubstMethodParams(Typer.scala:121)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType(TypeAssigner.scala:301)
+	at dotty.tools.dotc.typer.TypeAssigner.assignType$(TypeAssigner.scala:16)
+	at dotty.tools.dotc.typer.Typer.assignType(Typer.scala:121)
+	at dotty.tools.dotc.ast.tpd$.Apply(tpd.scala:49)
+	at dotty.tools.dotc.ast.tpd$TreeOps$.appliedToTermArgs$extension(tpd.scala:935)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:521)
+	at dotty.tools.dotc.ast.tpd$.New(tpd.scala:512)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.makeChildLater$1(Annotations.scala:215)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.later$$anonfun$1(Annotations.scala:218)
+	at dotty.tools.dotc.core.Annotations$LazyAnnotation.tree(Annotations.scala:120)
+	at dotty.tools.dotc.core.Annotations$Annotation$Child$.unapply(Annotations.scala:226)
+	at dotty.tools.dotc.typer.Namer.insertInto$1(Namer.scala:477)
+	at dotty.tools.dotc.typer.Namer.addChild(Namer.scala:488)
+	at dotty.tools.dotc.typer.Namer$Completer.register$1(Namer.scala:899)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild$$anonfun$1(Namer.scala:908)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.Namer$Completer.registerIfChild(Namer.scala:908)
+	at dotty.tools.dotc.typer.Namer$Completer.complete(Namer.scala:811)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.completeFrom(SymDenotations.scala:173)
+	at dotty.tools.dotc.core.Denotations$Denotation.completeInfo$1(Denotations.scala:187)
+	at dotty.tools.dotc.core.Denotations$Denotation.info(Denotations.scala:189)
+	at dotty.tools.dotc.core.SymDenotations$SymDenotation.ensureCompleted(SymDenotations.scala:380)
+	at dotty.tools.dotc.typer.Typer.retrieveSym(Typer.scala:2861)
+	at dotty.tools.dotc.typer.Typer.typedNamed$1(Typer.scala:2886)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2982)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.traverse$1(Typer.scala:3076)
+	at dotty.tools.dotc.typer.Typer.typedStats(Typer.scala:3126)
+	at dotty.tools.dotc.typer.Typer.typedPackageDef(Typer.scala:2687)
+	at dotty.tools.dotc.typer.Typer.typedUnnamed$1(Typer.scala:2953)
+	at dotty.tools.dotc.typer.Typer.typedUnadapted(Typer.scala:2983)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3050)
+	at dotty.tools.dotc.typer.Typer.typed(Typer.scala:3054)
+	at dotty.tools.dotc.typer.Typer.typedExpr(Typer.scala:3170)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$1(TyperPhase.scala:44)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck$$anonfun$adapted$1(TyperPhase.scala:54)
+	at scala.Function0.apply$mcV$sp(Function0.scala:42)
+	at dotty.tools.dotc.core.Phases$Phase.monitor(Phases.scala:429)
+	at dotty.tools.dotc.typer.TyperPhase.typeCheck(TyperPhase.scala:54)
+	at dotty.tools.dotc.typer.TyperPhase.runOn$$anonfun$3(TyperPhase.scala:88)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at dotty.tools.dotc.typer.TyperPhase.runOn(TyperPhase.scala:88)
+	at dotty.tools.dotc.Run.runPhases$1$$anonfun$1(Run.scala:233)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:15)
+	at scala.runtime.function.JProcedure1.apply(JProcedure1.java:10)
+	at scala.collection.ArrayOps$.foreach$extension(ArrayOps.scala:1321)
+	at dotty.tools.dotc.Run.runPhases$1(Run.scala:244)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$1(Run.scala:252)
+	at dotty.tools.dotc.Run.compileUnits$$anonfun$adapted$1(Run.scala:261)
+	at dotty.tools.dotc.util.Stats$.maybeMonitored(Stats.scala:68)
+	at dotty.tools.dotc.Run.compileUnits(Run.scala:261)
+	at dotty.tools.dotc.Run.compileSources(Run.scala:185)
+	at dotty.tools.dotc.interactive.InteractiveDriver.run(InteractiveDriver.scala:165)
+	at scala.meta.internal.pc.MetalsDriver.run(MetalsDriver.scala:48)
+	at scala.meta.internal.pc.SignatureHelpProvider$.signatureHelp(SignatureHelpProvider.scala:41)
+
+2023.02.27 15:17:29 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:29 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 15:17:31 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:31 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:17:36 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:36 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:17:57 INFO  compiling project_bd2c96d2de (2 scala sources)[0m
+2023.02.27 15:17:57 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 15:18:15 WARN  no build target for: /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:18:19 WARN  no build target for: /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:18:24 WARN  no build target for: /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:18:26 WARN  no build target for: /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:18:29 INFO  Disconnecting from scala-cli session...[0m
+2023.02.27 15:18:29 INFO  Shut down connection with build server.[0m
+2023.02.27 15:18:29 INFO  Attempting to connect to the build server...[0m
+2023.02.27 15:18:29 INFO  Cancelling compilation on scala-cli server[0m
+2023.02.27 15:18:29 INFO  Running BSP server [/opt/homebrew/bin/scala-cli, bsp, --json-options, /Users/felipehummel/dev/scalox/.scala-build/ide-options-v2.json, /Users/felipehummel/dev/scalox][0m
+2023.02.27 15:18:29 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/felipehummel/dev/scalox/.metals/bsp.trace.json or /Users/felipehummel/Library/Caches/org.scalameta.metals/bsp.trace.json[0m
+2023.02.27 15:18:35 INFO  time: Connected to build server in 6.12s[0m
+2023.02.27 15:18:35 INFO  Connected to Build server: scala-cli v0.1.19[0m
+2023.02.27 15:18:35 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:18:35 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 15:18:35 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:18:35 INFO  time: compiled project_bd2c96d2de in 63ms[0m
+2023.02.27 15:18:36 INFO  time: indexed workspace in 0.74s[0m
+2023.02.27 15:18:42 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:18:42 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.27 15:18:42 INFO  Refreshed build after change[0m
+2023.02.27 15:19:19 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:19:19 INFO  time: compiled project_bd2c96d2de in 80ms[0m
+2023.02.27 15:19:26 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:19:26 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:19:33 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:19:33 INFO  time: compiled project_bd2c96d2de in 83ms[0m
+2023.02.27 15:19:35 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:19:35 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:19:38 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:19:38 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:20:45 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:20:45 INFO  time: compiled project_bd2c96d2de in 86ms[0m
+2023.02.27 15:21:00 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:21:00 INFO  time: compiled project_bd2c96d2de in 87ms[0m
+2023.02.27 15:21:22 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:21:22 INFO  time: compiled project_bd2c96d2de in 81ms[0m
+2023.02.27 15:21:34 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:21:34 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:21:58 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:21:58 INFO  time: compiled project_bd2c96d2de in 78ms[0m
+2023.02.27 15:22:02 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:22:02 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:22:16 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:22:16 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:22:20 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:22:20 INFO  time: compiled project_bd2c96d2de in 69ms[0m
+2023.02.27 15:22:50 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:22:50 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:23:03 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:03 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:23:08 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:08 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:23:12 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:12 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+Feb 27, 2023 3:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1794
+2023.02.27 15:23:31 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:31 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:23:37 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:37 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:23:42 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:42 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:23:56 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:23:56 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.27 15:24:18 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:24:18 INFO  time: compiled project_bd2c96d2de in 87ms[0m
+2023.02.27 15:24:29 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:24:29 INFO  time: compiled project_bd2c96d2de in 80ms[0m
+2023.02.27 15:26:04 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:04 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.27 15:26:13 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:13 INFO  time: compiled project_bd2c96d2de in 79ms[0m
+2023.02.27 15:26:28 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:28 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:26:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:38 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:38 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:26:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:39 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:42 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:43 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:26:43 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:43 INFO  time: compiled project_bd2c96d2de in 82ms[0m
+2023.02.27 15:26:46 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:46 INFO  time: compiled project_bd2c96d2de in 77ms[0m
+2023.02.27 15:26:54 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:26:54 INFO  time: compiled project_bd2c96d2de in 78ms[0m
+Feb 27, 2023 3:27:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2226
+2023.02.27 15:27:55 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:27:55 INFO  time: compiled project_bd2c96d2de in 0.22s[0m
+2023.02.27 15:28:14 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:28:14 INFO  time: compiled project_bd2c96d2de in 78ms[0m
+2023.02.27 15:28:41 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:28:41 INFO  time: compiled project_bd2c96d2de in 0.2s[0m
+2023.02.27 15:32:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:32:37 INFO  time: compiled project_bd2c96d2de in 69ms[0m
+2023.02.27 15:32:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:32:39 INFO  time: compiled project_bd2c96d2de in 57ms[0m
+2023.02.27 15:33:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:33:04 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 15:33:27 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:33:27 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 15:33:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:33:29 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:33:52 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:33:52 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 15:33:54 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:33:54 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:34:04 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:04 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:34:06 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:06 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:34:22 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:22 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 15:34:25 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:25 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:34:34 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:34 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:34:54 ERROR scalafmt: /Users/felipehummel/dev/scalox/parser.scala:28: error: [dialect scala3] case classes must have a parameter list; try 'case class ParserError()' or 'case object ParserError'
+case class ParserError extends RuntimeException
+                       ^[0m
+2023.02.27 15:34:54 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:54 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 15:34:59 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:34:59 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:35:04 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:04 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.19' (since 16m 35.135s)[0m
+2023.02.27 15:35:04 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:04 INFO  time: compiled project_bd2c96d2de in 71ms[0m
+2023.02.27 15:35:07 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:07 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:35:08 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:08 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:35:09 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:09 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:35:12 INFO  compiling project_bd2c96d2de (3 scala sources)[0m
+2023.02.27 15:35:12 INFO  time: compiled project_bd2c96d2de in 0.19s[0m
+2023.02.27 15:38:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:38:43 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:41:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:41:01 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:41:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:41:11 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:41:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:41:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:41:58 INFO  time: compiled project_bd2c96d2de in 0.25s[0m
+2023.02.27 15:41:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:41:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:41:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:41:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:41:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:42:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:42:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/parser.scala[0m
+2023.02.27 15:42:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:42:01 INFO  time: compiled project_bd2c96d2de in 0.26s[0m
+2023.02.27 15:42:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:42:55 INFO  time: compiled project_bd2c96d2de in 0.18s[0m
+2023.02.27 15:43:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:04 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:43:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:14 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 15:43:30 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:30 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:43:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:43 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:43:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:49 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 15:43:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:54 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.27 15:43:57 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:43:57 INFO  time: compiled project_bd2c96d2de in 58ms[0m
+2023.02.27 15:44:04 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:44:04 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+Feb 27, 2023 3:53:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3841
+2023.02.27 15:53:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:53:46 INFO  time: compiled project_bd2c96d2de in 76ms[0m
+2023.02.27 15:53:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:53:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:54:05 INFO  time: compiled project_bd2c96d2de in 0.17s[0m
+2023.02.27 15:54:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:54:08 INFO  time: compiled project_bd2c96d2de in 68ms[0m
+2023.02.27 15:54:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:17 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:52 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:54:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:55:08 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 15:55:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:55:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:12 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:55:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:55:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:13 INFO  time: compiled project_bd2c96d2de in 0.21s[0m
+2023.02.27 15:55:13 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:19 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:55:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:03 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:05 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:14 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:17 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:23 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:56:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:25 INFO  time: compiled project_bd2c96d2de in 0.23s[0m
+2023.02.27 15:56:26 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:29 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:30 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:31 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:33 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:34 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:36 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:38 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:40 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:41 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:50 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:58 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:56:59 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:57:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:00 INFO  time: compiled project_bd2c96d2de in 0.21s[0m
+2023.02.27 15:57:00 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:01 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:04 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:06 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:57:06 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:06 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:57:07 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:11 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:12 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:57:12 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:57:12 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 15:57:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:57:29 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:57:49 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:57:49 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 15:58:17 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:17 INFO  time: compiled project_bd2c96d2de in 70ms[0m
+2023.02.27 15:58:18 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:20 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:16:9: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments ((evaluatedLeft : scalox.LoxRuntimeLiteral), (evaluatedRight : scalox.LoxRuntimeLiteral))
+        println(evaluatedLeft, evaluatedRight)
+        ^^^^^^^[0m
+2023.02.27 15:58:20 INFO  file:///Users/felipehummel/dev/scalox/compiler.scala:16:9: stale bloop error: None of the overloaded alternatives of method println in object Predef with types
+ (x: Any): Unit
+ (): Unit
+match arguments ((evaluatedLeft : scalox.LoxRuntimeLiteral), (evaluatedRight : scalox.LoxRuntimeLiteral))
+        println(evaluatedLeft, evaluatedRight)
+        ^^^^^^^[0m
+2023.02.27 15:58:20 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:22 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:24 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:25 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:25 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:58:34 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:34 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 15:58:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:39 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 15:58:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:45 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 15:58:55 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:58:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 15:58:55 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:59:26 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:59:26 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 15:59:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:59:39 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 15:59:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 15:59:50 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:00:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:01 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:00:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:36 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:00:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:46 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:00:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:51 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:00:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:54 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:00:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:00:56 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:01:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:01:09 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:01:09 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:01:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:01:15 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 16:01:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:01:15 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:02:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:02:31 INFO  time: compiled project_bd2c96d2de in 73ms[0m
+2023.02.27 16:02:44 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:02:44 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 16:02:57 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:02:57 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:06:11 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:06:11 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 16:09:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:09:29 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:09:36 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:09:36 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:09:38 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:09:38 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:13:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:13:28 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:13:28 INFO  time: compiled project_bd2c96d2de in 0.16s[0m
+2023.02.27 16:13:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:13:39 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:14:01 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:01 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:14:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:05 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:14:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:07 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:14:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:09 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:14:20 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:20 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:14:27 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:27 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:14:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:29 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:14:39 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:39 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:14:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:51 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:14:54 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:14:54 INFO  time: compiled project_bd2c96d2de in 95ms[0m
+2023.02.27 16:19:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:19:09 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:19:32 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:19:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:19:32 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:19:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:19:37 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:19:58 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:19:58 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:20:19 ERROR scalafmt: /Users/felipehummel/dev/scalox/compiler.scala:21: error: [dialect scala3] ; expected but else found
+    else throw LoxRuntimeError(op, "Operand must be a number.")
+    ^[0m
+2023.02.27 16:20:19 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:19 INFO  time: compiled project_bd2c96d2de in 69ms[0m
+2023.02.27 16:20:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:25 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 16:20:25 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:25 INFO  time: compiled project_bd2c96d2de in 53ms[0m
+2023.02.27 16:20:28 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:28 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.27 16:20:31 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:31 INFO  time: compiled project_bd2c96d2de in 49ms[0m
+2023.02.27 16:20:35 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:20:35 INFO  time: compiled project_bd2c96d2de in 0.15s[0m
+2023.02.27 16:21:07 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:21:07 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:21:45 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:21:45 INFO  time: compiled project_bd2c96d2de in 72ms[0m
+2023.02.27 16:21:45 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:48 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:49 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:51 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:53 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:54 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:55 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:56 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:57 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:21:57 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:21:57 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:22:00 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:00 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:22:33 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:33 INFO  time: compiled project_bd2c96d2de in 67ms[0m
+2023.02.27 16:22:37 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:37 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:22:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:40 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:22:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:43 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.27 16:22:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:22:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:22:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:22:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:22:46 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:22:46 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:22:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:22:51 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:23:06 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:06 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:23:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:09 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.27 16:23:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:23:10 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:23:10 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:23:10 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:23:13 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:13 INFO  time: compiled project_bd2c96d2de in 0.1s[0m
+2023.02.27 16:23:15 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:23:15 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:15 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:23:46 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:46 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:23:53 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:23:53 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:24:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:24:05 INFO  Deduplicating compilation of project_bd2c96d2de from bsp client 'scala-cli 0.1.19' (since 1h 5m 36.512s)[0m
+2023.02.27 16:24:05 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:24:05 INFO  time: compiled project_bd2c96d2de in 33ms[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:24:08 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:24:08 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:24:09 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:24:09 INFO  time: compiled project_bd2c96d2de in 0.11s[0m
+2023.02.27 16:24:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:24:59 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:25:32 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:25:32 INFO  time: compiled project_bd2c96d2de in 74ms[0m
+2023.02.27 16:25:40 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:25:40 INFO  time: compiled project_bd2c96d2de in 65ms[0m
+2023.02.27 16:25:42 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:25:42 INFO  time: compiled project_bd2c96d2de in 61ms[0m
+2023.02.27 16:25:43 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:25:43 INFO  time: compiled project_bd2c96d2de in 53ms[0m
+2023.02.27 16:25:51 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:25:51 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:26:14 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:26:14 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
+2023.02.27 16:31:24 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:31:24 INFO  time: compiled project_bd2c96d2de in 73ms[0m
+2023.02.27 16:31:50 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:31:50 INFO  time: compiled project_bd2c96d2de in 0.14s[0m
+2023.02.27 16:32:29 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:32:29 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:32:56 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:32:56 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:32:59 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:32:59 INFO  time: compiled project_bd2c96d2de in 0.13s[0m
+2023.02.27 16:33:02 INFO  compiling project_bd2c96d2de (1 scala source)[0m
+2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:33:02 WARN  Could not load snapshot text for /Users/felipehummel/dev/scalox/compiler.scala[0m
+2023.02.27 16:33:02 INFO  time: compiled project_bd2c96d2de in 0.12s[0m
